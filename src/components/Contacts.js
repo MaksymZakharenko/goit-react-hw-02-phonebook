@@ -6,7 +6,7 @@ import ContactsList from "./ContactList/ContactList";
 import styles from "./Contacts.module.css";
 
 
-class Todos extends Component {
+class Contacts extends Component {
   state = {
     items: [],
     filter: "",
@@ -71,4 +71,4 @@ class Todos extends Component {
   }
 }
 
-export default Todos;
+export default Contacts;
